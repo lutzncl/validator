@@ -10,6 +10,8 @@ c) Amounts with a WEEK or a MONTH selected as frequency are accepted as is
 ##Approach
 Hibernate validator is used for its implementation of JSR-303.
 For easy dependency management maven has been selected. 
+The build follows a basic MVC structure without a view.
+The App class, containing the main method functions as a placeholder for future extensions.
 
 ##On execution:
 Run as JUnit Test to check the outcome of validations.
